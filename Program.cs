@@ -13,7 +13,7 @@ class Program
     public static ILogger Log { get; private set; }
     public static Settings Settings { get; set; }
     
-    public const string Logo = @" |\/|     | _|_ o _|_  _. |  _ " + "\n" + 
+    public const string Logo = @" |\/     | _|_ o _|_  _. |  _ " + "\n" + 
                                @" |  | |_| |  |_ |  |_ (_| | (/_";
     
     private static void BuildConsole(bool rebuild = false)
