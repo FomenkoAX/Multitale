@@ -29,7 +29,7 @@ public class Settings
     {
         if (_settingsIni.IsEmpty())
         {
-            Program.Log.Warning("Settings file is empty. Loading defaults...");
+            Program.Log.Warning("Settings file is empty! Loading defaults...");
             _settingsIni.RewriteAll(Defaults);
             Program.Log.Warning("Settings defaults loaded");
         }
